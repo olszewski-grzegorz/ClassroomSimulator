@@ -1,4 +1,5 @@
-﻿namespace ClassroomSimulator
+﻿using ClassroomSimulator.Library;
+namespace ClassroomSimulator
 {
     internal class Program
     {
@@ -12,7 +13,12 @@
                 Console.WriteLine("Imie jest nieprawidlowe");
                 return;
             }
+
+
+            Teacher teacher = new Teacher(teacherName);
+            
             
         }
+
     }
 }
