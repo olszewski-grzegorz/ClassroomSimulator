@@ -17,7 +17,9 @@ namespace ClassroomSimulator
 
             Teacher teacher = new Teacher(teacherName);
             
-            
+            List<string>studentNames = StudentDataReader.GetStudentNamesFromFile("StudentData.txt");
+
+
         }
 
     }
