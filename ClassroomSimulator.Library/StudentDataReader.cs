@@ -27,5 +27,20 @@ namespace ClassroomSimulator.Library
             }
             return studentNames;
         }
+
+        public static List<Student> GetStudentsFromFile(string fileName)
+        {
+            List<string> studentNames = StudentDataReader.GetStudentNamesFromFile(fileName);
+
+            List<Student> students = new List<Student>();
+
+            foreach (string studentName in studentNames)
+            {
+                Student student = new Student(studentName);
+                students.Add(student);
+            }
+
+            return students;
+        }
     }
 }

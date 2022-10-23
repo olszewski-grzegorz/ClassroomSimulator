@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace ClassroomSimulator.Library
 {
-    public class Teacher : Person
+    public class Student : Person
     {
-        public Teacher(string name) : base(name)
+        public Student(string name) : base(name)
         {
-            
+
         }
     }
 }
