@@ -11,12 +11,19 @@ namespace ClassroomSimulator.Library
         private List<Student> _students;
         public Teacher(string name) : base(name)
         {
-            
+
         }
 
         public void GiveLecture()
         {
             string lecutre = "Wyklad o dziedziczeniu";
+
+            foreach (var student in _students)
+            {
+                student.AddNote(lecutre);
+
+
+            }
         }
 
         public void AddStudents(List<Student> students)

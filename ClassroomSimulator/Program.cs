@@ -19,7 +19,8 @@ namespace ClassroomSimulator
 
             List<Student> students = StudentDataReader.GetStudentsFromFile("StudentData.txt");
 
-
+            teacher.AddStudents(students);
+            teacher.GiveLecture();
 
         }
 
