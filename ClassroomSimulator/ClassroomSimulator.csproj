@@ -11,4 +11,10 @@
     <ProjectReference Include="..\ClassroomSimulator.Library\ClassroomSimulator.Library.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Update="StudentData.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>
