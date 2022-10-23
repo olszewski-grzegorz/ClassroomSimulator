@@ -1,7 +1,7 @@
 # ClassroomSimulator
 ## _FlexDevAcademy_
 
-Celem ćwiczenia jest stworzenie aplikacji symulującej zajęcia lekcyjne.
+Celem ćwiczenia jest stworzenie aplikacji symulującej zajęcia lekcyjne. 
 
 # Wymagania
 - aplikacja oczekuje na starcie podania imienia nauczyciela prowadzącego zajęcia
