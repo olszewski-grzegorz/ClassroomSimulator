@@ -8,12 +8,11 @@ namespace ClassroomSimulator.Library
 {
     public class Teacher
     {
-        private string _newName;
         public string Name
         {
             get;
             private set;
-            
+
         }
         public Teacher(string name)
         {

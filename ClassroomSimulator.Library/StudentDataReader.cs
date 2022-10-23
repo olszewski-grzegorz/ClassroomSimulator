@@ -7,15 +7,15 @@ using System.IO;
 
 namespace ClassroomSimulator.Library
 {
-    internal class StudentDataReader
+    public class StudentDataReader
     {
-        public List<string> GetStudentNamesFromFile(string fileName)
+        public static List<string> GetStudentNamesFromFile(string fileName)
         {
            string content = File.ReadAllText(fileName);
             return GetStudentNamesFromString(content);
         }
 
-        public List<string> GetStudentNamesFromString(string content)
+        public static List<string> GetStudentNamesFromString(string content)
         {
            string[] unformatedNames = content.Split(',');
             List<string> studentNames = new List<string>();
